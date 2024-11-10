@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background-color: #ff6600;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('./about.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* About Us Section */
+.about-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about-section .container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.about-section .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-section .column {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-section .column img {
+        width: 40%;
+        height: 60%;
+    
+    }
+
+.about-section .column h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.about-section .column p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .social-icons img {
+    width: 24px;
+    height: 24px;
+}

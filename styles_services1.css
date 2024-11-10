@@ -1,0 +1,217 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 10px 20px;
+}
+
+nav .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid white;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('./metro4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Services Section */
+.services {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+}
+
+/* Individual Service Sections */
+.service-section {
+    margin-bottom: 40px;
+    border: 1px solid #ad682891;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.service-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-content img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.service-content img:hover {
+    transform: scale(1.05);
+}
+
+.service-content h3 {
+    margin: 15px 0;
+}
+
+.service-content p {
+    padding: 0 15px;
+}
+
+/* Button Styles */
+.service-content button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.service-content button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+.learn-more-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #0056b3;
+  }
+  .buy-now-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #cd0505;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .buy-now-button:hover {
+    background-color: #a40707;
+  }
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f9f9f9;
+}
+
+.back-home-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-home-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}

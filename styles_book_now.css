@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 10px 20px;
+}
+
+nav .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid white;
+}
+
+/* Hero Section */
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+  }
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Booking Options Section */
+.booking-options {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.booking-options h2 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+}
+
+/* Options Container */
+.options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Individual Option Cards */
+.option-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.option-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.option-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.option-card h3 {
+    margin: 15px 0;
+}
+
+.option-card p {
+    padding: 0 15px;
+}
+
+/* Button Styles */
+.book-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.book-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f9f9f9;
+}
+
+.back-home-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-home-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
